@@ -253,7 +253,7 @@
 	</div>
 
 	<div class="Footer">
-		<div class="space s-txt-center">2011 &copy; Administraci&oacute;n UCE. Todos los derechos reservados. Creado por <a href="https://okzgn.com">OKZGN</a>
+		<div class="space s-txt-center">2010-2011 &copy; Administraci&oacute;n UCE. Todos los derechos reservados. Creado por <a href="https://okzgn.com">OKZGN</a>
 		</div>
 	</div>
 

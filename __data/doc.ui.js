@@ -1,6 +1,6 @@
 /*
 	doc.[uSER iNTERFACE].js/
-	2011 (c) AdminUCE. by OKZGN
+	2010-2011 (c) AdminUCE. by OKZGN
 */
 
 function Hover(obj, classname){ obj.bind('mouseover', function(){ $(this).addClass(classname); }); obj.bind('mouseout', function(){ $(this).removeClass(classname); })}
