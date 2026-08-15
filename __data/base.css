@@ -1,0 +1,241 @@
+/*
+	base.css // 2011 (c) AdminUCE. by OKZGN
+*/
+
+
+		html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;border:0;outline:0;}body{background-color:#fff;}body,legend,input,textarea,select{color:#000;}input,textarea,select{font-family:inherit;font-size:100%;font-weight:inherit;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}li{list-style:none;float:left;}abbr,acronym,fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}table{border-collapse:collapse;border-spacing:0;}caption,th{text-align:left;}abbr,acronym{font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}:active,:focus{outline: 0;}
+		body	{ text-align: center; }em	{ font-style: italic; }strong	{ font-weight: bold; }#LIM 			{ width: 100%; height: 100%; }#LIM .s-doc-space	{ width: 850px; margin: 0 auto; text-align: left; }.s-box-clean	{ height: 1%; overflow: hidden; }.s-pos-left	{ float: left; }.s-pos-right	{ float: right; }.s-pos-center	{ margin-left: auto; margin-right: auto; }.s-txt-left	{ text-align: left; }.s-txt-right	{ text-align: right; }.s-txt-center	{ text-align: center; }.s-hidden *	{ display: none; }.s-siz-A	{ width: 20%; }.s-siz-B	{ width: 30%; }.s-siz-C	{ width: 40%; }.s-siz-D	{ width: 50%; }.s-siz-E	{ width: 60%; }.s-siz-F	{ width: 70%; }.s-siz-1	{ width: 80%; }.s-siz-2	{ width: 90%; }.s-siz-3	{ width: 100%; }.s-siz-4	{ width: 10%; }.s-siz-5	{ width: 5%; }.s-spaced-A	{ display: block; margin-bottom: 6px; }.s-spaced-B	{ display: block; margin-bottom: 12px; }	.s-starbox {display: none;position: absolute;top: 0;left: 0;width: 180px;border: 1px solid #c60;background-color: #ffc;padding: 6px;font-size: 0.8em;border-radius: 2px;-moz-border-radius: 2px; -webkit-border-radius: 2px;}
+	.s-separator {
+		border-top: 3px dotted #ccc;
+		font-size: 0;
+		display: block;
+		margin: 10px 0;
+	}
+
+	a.s-button {
+		display: inline-block;
+		font: bold 1.2em "trebuchet ms", arial;
+		background-color: #39c;
+		padding: 2px 8px;
+		color: #eee !important;
+		text-decoration: none !important;
+		border: 1px solid #069;
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+	a.s-button:hover {
+		color: #fff;
+		background-color: #069;
+	}
+
+	a.s-lil-button {
+		text-decoration: none !important;
+		background-color: #f90;
+		font-weight: bold;
+		padding: 0 6px;
+		display: inline-block;
+		height: 24px;
+		font: bold 1.4em arial;
+		color: #000 !important;
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+		a.s-lil-button span {
+			display: inline-block;
+			padding-top: 1px;
+		}
+
+
+	a.s-lil-button:hover {
+		background-color: #000;
+		color: #f90 !important;
+	}
+
+
+	input.s-frm-button, input.s-frm-text {
+		font: normal 10pt tahoma, arial;
+	}
+
+	input.s-frm-text {
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid #888;
+		padding: 5px;
+		width: 180px;
+		background-color: #ccc;
+		margin-bottom: 10px;
+		color: #000;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	input.s-frm-text-hover {
+		border-color: #000;
+	}
+
+	input.s-frm-text-focus {
+		border-color: #c60;
+		background-color: #9cc;
+	}
+
+	input.s-frm-button {
+		display: inline-block;
+		background-color: #000;
+		color: #ccc;
+		height: 28px;
+		font-weight: bold;
+		cursor: pointer;
+		margin-bottom: 6px;
+		border: 0;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	input.s-frm-button-hover {
+		color: #fff;
+		background-color: #c60;
+	}
+
+	textarea.s-frm-textarea {
+		width: 610px;
+		height: 160px;
+		display: block;
+		border: 1px solid #999;
+		padding: 5px;
+		background: #999 url(images/iba.gif) repeat-x;
+		margin-bottom: 10px;
+		color: #fff;
+		overflow: auto;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	textarea.s-frm-textarea-hover {
+		border-color: #000;
+	}
+
+	textarea.s-frm-textarea-focus {
+		border-color: #f90;
+	}
+
+
+
+	.s-squ-silver {
+		background-color: #eee;
+		border: 2px solid #ccc;
+		margin-bottom: 12px;
+		padding-bottom: 12px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	.s-squ-redy {
+		background-color: #f00;
+		border: 1px solid #000;
+		margin-bottom: 12px;
+		padding: 6px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	.s-squ-green {
+		background-color: #090;
+		border: 1px solid #253;
+		margin-bottom: 12px;
+		padding: 6px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+
+
+
+
+	body {
+		background-color: #fff;
+		font-size: 12pt;
+	}
+
+	select {
+		background-color: #999;
+		border: 1px solid #666;
+		color: #fff;
+	}
+
+	#LIM a {
+		color: #069;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#LIM a:hover {
+		color: #c60;
+	}
+
+	#LIM h2 {
+		font: bold 1.8em "trebuchet ms", arial;
+		border-bottom: 3px solid #39c;
+		padding: 8px 20px 4px 20px;
+		color: #fff;
+		background-color: #069;
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+		#LIM h2 a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		#LIM h2 a:hover {
+			color: #fff;
+		}
+
+
+	#LIM h3 {
+		font: bold 1.8em "trebuchet ms", arial;
+		border-bottom: 3px solid #666;
+		padding: 8px 20px 4px 20px;
+		color: #fff;
+		background-color: #000;
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	}
+
+		#LIM h3 a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		#LIM h3 a:hover {
+			color: #fff;
+		}
+
+
+
+
+
+	.s-dialog {
+		width: 640px;
+		text-align: left;
+		font: normal 1.2em tahoma, arial;
+		color: #000;
+	}
+
+		.s-dialog h2 {
+			font-size: 1.4em;
+			background-color: #666;
+			color: #fff;
+			padding: 4px 12px;
+			border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+		}
+
+		.s-dialog .dialog-space {
+			padding: 8px 12px;
+		}
+
+		.s-dialog .upload .s-frm-button {
+			width: 80px;
+		}

@@ -1,0 +1,475 @@
+/*
+	theme_skyblue.css // 2011 (c) AdminUCE. by OKZGN
+*/
+
+
+
+/* Design	*/
+
+
+#LIM {
+	font: normal 0.8em tahoma, arial;
+	background: url(images/hdrbk.gif) repeat-x;
+	color: #000;
+}
+
+#LIM .Content .bigtext {
+	font: normal 2.4em "trebuchet ms", arial;
+	color: #666;
+}
+
+
+
+#LIM .Header {
+	height: 259px;
+	background: url(images/hdr.jpg) no-repeat;
+}
+
+	#LIM .Header .space {
+		padding: 55px 32px 0 32px;
+	}
+
+	#LIM .Header h1 {
+		background: url(images/logo.jpg) no-repeat;
+		width: 257px;
+		height: 204px;
+	}
+
+	#LIM .Header h4 {
+		font: italic 2.4em "trebuchet ms", arial;
+		font-weight: bold;
+		padding-top: 84px;
+		color: #069;
+		width: 90%;
+	}
+
+	#LIM .Header .adds {
+		width: 500px;
+	}
+
+	#LIM .Header .links {
+		float: right;
+		margin-left: auto;
+		margin-top: 10px;
+		background-color: #fff;
+		padding: 6px;
+		border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+		color: #666;
+	}
+
+	#LIM .Content .links {
+		color: #000 !important;
+		font-weight: bold;
+	}
+
+	#LIM .Header .links a:hover {
+		color: #000;
+	}
+
+
+
+
+#LIM .Content {
+	background: url(images/ctnd.gif) repeat-y;
+}
+
+	#LIM .Content .space {
+		padding: 24px 32px 0 32px;
+	}
+
+	#LIM .Content .STUDENTSIDE {
+		width: 280px;
+	}
+
+	#LIM .Content .sphotos a {
+		float: left;
+		border: 2px solid #ccc;
+		margin: 1px;
+	}
+
+	#LIM .Content .sphotos a:hover {
+		border-color: #000;
+	}
+
+	#LIM .Content .sphotos img {
+		float: left;
+	}
+
+
+	#LIM .STUDENTSIDE .login {
+		margin: 4px 0 0 0;
+		border-color: #80b4cc;
+		padding: 0;
+	}
+
+	#LIM .STUDENTSIDE .login .s-frm-button {
+		width: 80px;
+	}
+
+	#LIM .STUDENTSIDE .login fieldset {
+		padding: 3px 12px 4px 12px;
+	}
+
+	#LIM .STUDENTSIDE .login span {
+		display: block;
+	}
+
+	#LIM .batext {
+		color: #666;
+		display: block;
+		padding: 0 12px;
+	}
+
+
+	#LIM .gatr {
+		height: 110px;
+	}
+
+
+
+
+	#LIM .Content .works h3 {
+		background-color: #253;
+		border-color: #000;
+	}
+
+	#LIM .Content .works .works-space {
+		padding: 6px 3px;
+	}
+
+
+
+
+	#LIM .Content .TEACHERSIDE {
+		width: 480px;
+	}
+
+	#LIM .Content .biganunce {
+		font: bold 1.2em "trebuchet ms", arial;
+	}
+
+	#LIM .Content .biganunce img {
+		border: 10px solid #ccc;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+	}
+
+
+
+	#LIM .Content .anunces {
+	}
+
+	#LIM .Content .anunces h4 {
+		font: bold 1.4em "trebuchet ms";
+		padding: 0 12px;
+		color: #c60;
+	}
+
+	#LIM .Content .anunces .rememsbox {
+		height: 80px;
+		overflow: auto;
+		padding: 6px 12px;
+	}
+
+	#LIM .Content .nothing {
+		color: #999;
+		font-size: 85%;
+	}
+
+
+	#LIM .Content .students {
+
+	}
+
+	#LIM .Content .students-space {
+		padding: 12px;
+	}
+
+
+
+		#LIM .Content .anunces .rememsbox blockquote {
+			font-size: 85%;
+			padding: 9px 8px 10px 8px;
+			border: 1px solid #ccc;
+			background-color: #ffc;
+			margin-bottom: 12px;
+		}
+
+		#LIM .Content .anunces .rememsbox blockquote h5 {
+			color: #888;
+			height: 20px;
+		}
+
+		#LIM .Content .anunces .rememsbox blockquote h5 strong {
+			color: #39c;
+		}
+
+
+	#LIM .Content .login fieldset {
+		padding: 6px 12px;
+	}
+
+
+	#LIM .Content .login .s-frm-button {
+		padding: 6px 12px;
+	}
+
+
+
+
+
+
+	#LIM .Content .register {
+		padding: 6px 12px;
+	}
+
+
+
+
+	#LIM .Content .register fieldset {
+		padding: 0 12px;
+	}
+
+	#LIM .Content .register strong {
+		color: #069;
+	}
+
+	#LIM .Content .register h5 {
+		font-size: 0.8em;
+		color: #666;
+	}
+
+	#LIM .Content .register .s-frm-button {
+		width: 90px;
+	}
+
+	#LIM .Content .register .name .s-frm-text {
+		width: 300px;
+	}
+
+	#LIM .Content .register .age .s-frm-text {
+		width: 50px;
+	}
+
+	#LIM .Content .register .curs .s-frm-text {
+		width: 100px;
+	}
+
+	#LIM .Content .register .college .s-frm-text {
+		width: 200px;
+	}
+
+
+
+
+
+	#LIM .Content .userin .s-frm-button {
+		width: 80px;
+		margin-top: 6px;
+	}
+
+	#LIM .Content .userin .s-frm-text {
+		width: 220px;
+	}
+
+
+	#LIM .Content .userin fieldset {
+		padding: 0 12px;
+	}
+
+	#LIM .Content .little {
+		font-size: 0.8em;
+		color: #666;
+	}
+
+	#LIM .Content .userpanel h3 {
+		background-color: #f96;
+		color: #000;
+		border-color: #c60;
+	}
+
+	#LIM .Content .userpanel #user_files {
+		background-color: #fff;
+		margin: 3px 3px 0 3px;
+		border: 1px solid #999;
+		padding: 10px;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+
+	#LIM .Content .userpanel .little {
+		padding: 2px 6px 0 0;
+	}
+
+	#LIM .Content .usernotes .s-frm-button {
+		width: 80px;
+	}
+
+	#LIM .Content .usernotes .s-frm-text {
+		width: 420px;
+	}
+
+	#LIM .Content .usernotes fieldset {
+		padding: 0 12px;
+	}
+
+	#LIM .Content .aler {
+		text-align: center;
+	}
+
+	#LIM .Content .profile img {
+		float: left;
+		border: 2px solid #000;
+		margin: 0 24px 6px 0;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	#LIM .Content .profile strong {
+		display: inline-block;
+		margin-bottom: 3px;
+		color: #069;
+		width: 60px;
+	}
+
+
+	#LIM .Content .studentfiles {
+		margin-top: 2px;
+		height: 128px;
+		overflow: auto;
+		background-color: #fff;
+		border: 1px solid #999;
+		padding: 10px 12px;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	#LIM .Content .studentfiles h4 {
+		font-weight: bold;
+		color: #666;
+		float: left;
+		width: 566px;
+	}
+
+
+	#LIM .Content .studentfiles .s-separator {
+		width: 566px;
+		float: left;
+	}
+
+
+
+	#LIM .Content .teacherfiles {
+		margin: 2px 0 12px 0;
+		background-color: #fff;
+		border: 2px solid #999;
+		padding: 10px 12px;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	#LIM .Content .teacherfiles a.tfile {
+		width: 400px !important;
+		font-weight: normal !important;
+		display: block !important;
+	}
+
+	#LIM .Content .teacherfiles a.nml {
+		display: inline !important;
+		width: auto !important;
+		border: 0 !important;
+		padding: 0 !important;
+	}
+
+	#LIM .Content .teacherfiles blockquote {
+		display:inline-block;
+		border-bottom: 1px solid #eee;
+		padding: 3px 0;
+	}
+
+	#LIM .Content .teacherfiles input {
+		width: 40px;
+		border: 1px solid #ccc;
+		font-weight: bold;
+		color: #f00;
+	}
+
+	#LIM .Content .teacherfiles .indexes blockquote {
+		border-color: #999;
+		margin-bottom: 8px;
+	}
+
+
+
+
+
+
+
+
+	#LIM .Content #user_files a {
+		width: 154px;
+		display: inline-block;
+		padding: 3px 0 3px 28px;
+		font-size: 85%;
+		color: #069;
+		text-align: left;
+		border: 1px solid #ccc;
+		background-color: #eee !important;
+		margin: 2px;
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	#LIM .Content #user_files a span.pt {
+		color: #fff;
+		float: right;
+		font-size: 85%;
+		padding: 2px;
+		margin-right: 2px;
+		background-color: #f00;
+		border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	}
+
+	#LIM .Content #user_files a.fimag {
+		background: url(images/fimag.gif) 6px 2px no-repeat;
+	}
+	#LIM .Content #user_files a.fword {
+		background: url(images/fword.gif) 6px 2px no-repeat;
+	}
+	#LIM .Content #user_files a.fexcl {
+		background: url(images/fexcl.gif) 6px 5px no-repeat;
+	}
+	#LIM .Content #user_files a.fpowp {
+		background: url(images/fpowp.gif) 6px 5px no-repeat;
+	}
+
+
+	#LIM .Content #user_files a:hover {
+		background-color: #ccc !important;
+		border-color: #999;
+		color: #000;
+		text-decoration: underline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#LIM .Footer {
+	height: 86px;
+	background: url(images/ftrb.gif) no-repeat;
+}
+
+#LIM .Footer .space {
+	padding-top: 32px;
+}
