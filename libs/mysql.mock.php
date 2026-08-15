@@ -79,7 +79,7 @@ class UCE_Mock_DB {
             '" . sha1('estudiante123') . "',
             'Joel Puyo Alumno',
             '21',
-            'joel.puto@email.com',
+            'joel.puyo@email.com',
             'AB',
             'Colegio Central Tech',
             'normal'
